@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram id="judging-flow" name="Judging Process Flow">
+    <mxGraphModel dx="1717" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="2800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fillColor=#1b5e20;fontColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;strokeColor=none;" value="SEAL HACKATHON — JUDGING PROCESS FLOW&#xa;Quy trình chấm điểm: Hiệu chuẩn → Chấm chính thức → Kiểm soát phương sai → Xếp hạng&#xa;FPT University TP.HCM — SE Department" vertex="1">
+          <mxGeometry height="75" width="1320" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-bg" parent="1" style="rounded=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="70" width="1320" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Start/End" vertex="1">
+          <mxGeometry height="35" width="110" x="55" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="🤖 System Action" vertex="1">
+          <mxGeometry height="35" width="130" x="185" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="👤 Human Action" vertex="1">
+          <mxGeometry height="35" width="130" x="335" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="lg4" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Decision" vertex="1">
+          <mxGeometry height="50" width="110" x="485" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="lg5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Data / Output" vertex="1">
+          <mxGeometry height="35" width="130" x="615" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="lg-txt" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=left;fontSize=10;fontStyle=1;" value="ACTORS: 🤖 System  |  👨‍💼 Coordinator  |  ⚖ Judge  |  👔 Dept Head" vertex="1">
+          <mxGeometry height="30" width="560" x="780" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="🚀 START" vertex="1">
+          <mxGeometry height="55" width="200" x="600" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" value="B1 — 👨‍💼 Setup Criteria / Assign Judge&#xa;• Criteria Template (Dept Head APPROVED): tên + trọng số + rubric 5 mức&#xa;• Tiêu chí: Innovation 25% | Technical 30% | Business 20% | Presentation 15% | Teamwork 10%&#xa;• Assign ≥ 3 judges/vòng/hạng mục | Judge ≠ Mentor cùng hạng mục" vertex="1">
+          <mxGeometry height="105" width="620" x="390" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="b2-gate" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="B2 — ⚠ Validate&#xa;Conditions&#xa;&#xa;✓ Criteria sum = 100%?&#xa;✓ ≥ 3 judges assigned?&#xa;✓ No COI (Judge=Mentor)?&#xa;✓ Template = PUBLISHED?" vertex="1">
+          <mxGeometry height="155" width="290" x="555" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-box" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="👨‍💼 Coordinator chỉnh sửa&#xa;• Điều chỉnh trọng số&#xa;• Thêm / đổi judge&#xa;• Cập nhật template" vertex="1">
+          <mxGeometry height="80" width="250" x="100" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="b3-label" parent="1" style="text;html=1;fillColor=none;strokeColor=none;fontSize=12;fontStyle=1;align=center;fontColor=#b71c1c;" value="━━━━━━━━━━━━━━━━  CALIBRATION SESSION (1–2 ngày trước chấm chính thức)  ━━━━━━━━━━━━━━━━" vertex="1">
+          <mxGeometry height="25" width="1240" x="80" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="b3-prep" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="👨‍💼 Chuẩn bị bài mẫu (Model Submission)&#xa;• 1–2 bài đại diện chất lượng&#xa;• Ghi điểm chuẩn mong muốn (hidden với judge)" vertex="1">
+          <mxGeometry height="75" width="340" x="80" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="b3-score" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="⚖ Mỗi Judge chấm bài mẫu độc lập&#xa;• Score từng tiêu chí (0–10) + nhận xét&#xa;• Không trao đổi với judge khác" vertex="1">
+          <mxGeometry height="75" width="340" x="460" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="b3-dash" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="🤖 Hiển thị Calibration Dashboard&#xa;┌───────────────────────────────────┐&#xa;│ Criteria  │Chuẩn│ J1 │ J2 │ J3  │&#xa;│Innovation │  8  │  8 │  7 │  9  │&#xa;│Technical  │  7  │  6 │  7 │  8  │&#xa;│Business   │  7  │  7 │  6 │  8  │&#xa;└───────────────────────────────────┘" vertex="1">
+          <mxGeometry height="130" width="380" x="840" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-discuss" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="B4 — 👨‍💼 + ⚖ Review Calibration&#xa;• Thảo luận sai lệch &gt; 2 điểm&#xa;• Đồng thuận cách diễn giải rubric&#xa;• &quot;Tại sao Judge X cho Innovation 9 khi chuẩn là 8?&quot;" vertex="1">
+          <mxGeometry height="90" width="520" x="390" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="d-calib" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="Judges đạt&#xa;đồng thuận?" vertex="1">
+          <mxGeometry height="90" width="220" x="590" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="b5-label" parent="1" style="text;html=1;fillColor=none;strokeColor=none;fontSize=12;fontStyle=1;align=center;fontColor=#1b5e20;" value="━━━━━━━━━━━━━━━━━━━━━━━━━━━  OFFICIAL SCORING  ━━━━━━━━━━━━━━━━━━━━━━━━━━━" vertex="1">
+          <mxGeometry height="25" width="1240" x="80" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" value="B5 — ⚖ Official Scoring — Chấm điểm chính thức&#xa;• 🤖 System unlock cổng chấm (đúng deadline)&#xa;• Judge xem repo + demo + slide&#xa;• Score từng tiêu chí (0–10) + nhận xét chi tiết&#xa;• Save Draft → Submit (lock sau submit, không sửa)" vertex="1">
+          <mxGeometry height="110" width="620" x="390" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="b6" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="B6 — 🤖 Save Score &amp; Audit Log&#xa;• Lưu: judge_id | submission_id | criteria_id | score | comment | timestamp&#xa;• Audit: event_type=SCORE_SUBMITTED | append-only | không xóa" vertex="1">
+          <mxGeometry height="90" width="620" x="390" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="d6-judge" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="Đủ judge&#xa;đã nộp?" vertex="1">
+          <mxGeometry height="90" width="220" x="590" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="remind-box" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="🤖 Nhắc nhở judge chưa nộp&#xa;(24h trước deadline)" vertex="1">
+          <mxGeometry height="55" width="250" x="1050" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="b7" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="B7 — 🤖 Calculate Final Score&#xa;• Avg(score/tiêu chí) × weight → weighted total per submission&#xa;• Ví dụ: Innovation avg=8.0×25% + Technical avg=7.5×30% + ... = Final Score&#xa;• Tính phương sai (variance) điểm giữa các judges" vertex="1">
+          <mxGeometry height="105" width="620" x="390" y="1525" as="geometry" />
+        </mxCell>
+        <mxCell id="d7-var" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="Variance &gt; 2&#xa;điểm?" vertex="1">
+          <mxGeometry height="90" width="220" x="590" y="1675" as="geometry" />
+        </mxCell>
+        <mxCell id="b8-review" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="B8 — 👨‍💼 Review Variance&#xa;⚠️ Flag: cao nhất – thấp nhất &gt; 2 điểm&#xa;• Xem lại bài chấm của judge lệch&#xa;• Coaching / ghi chú bias&#xa;• Quyết định: giữ nguyên hoặc yêu cầu chấm lại&#xa;⚠️ Variance flag ≠ auto-loại (Rule ⑪)" vertex="1">
+          <mxGeometry height="110" width="320" x="1030" y="1665" as="geometry" />
+        </mxCell>
+        <mxCell id="d8-ok" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Kết quả&#xa;hợp lệ?" vertex="1">
+          <mxGeometry height="80" width="180" x="1095" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="b9" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="B9 — 🤖 Auto Ranking&#xa;• Sort by Final Score (descending) per hạng mục per vòng&#xa;• Rank trong hạng mục + Rank toàn sự kiện&#xa;• Dashboard công khai leaderboard (sau khi Coordinator publish)" vertex="1">
+          <mxGeometry height="100" width="620" x="390" y="1825" as="geometry" />
+        </mxCell>
+        <mxCell id="d9-topn" parent="1" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="Đội trong&#xa;Top N?" vertex="1">
+          <mxGeometry height="90" width="220" x="590" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="b10-adv" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="B10 — ✅ ADVANCE&#xa;• Thăng vòng tiếp theo&#xa;• Email thông báo team&#xa;• Status = ADVANCING" vertex="1">
+          <mxGeometry height="90" width="280" x="980" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="b10-elim" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="B10 — ❌ ELIMINATED&#xa;• Dừng thi đấu&#xa;• Email thông báo + điểm chi tiết&#xa;• Dữ liệu gốc vẫn giữ (append-only)" vertex="1">
+          <mxGeometry height="90" width="280" x="130" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" value="✅ END&#xa;Kết thúc vòng — tiếp tục vòng sau hoặc công bố kết quả" vertex="1">
+          <mxGeometry height="60" width="440" x="480" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="endArrow=classic;html=1;strokeWidth=2;" target="b1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="b1" style="endArrow=classic;html=1;strokeWidth=2;" target="b2-gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-no" edge="1" parent="1" source="b2-gate" style="endArrow=classic;html=1;dashed=1;fontColor=#A50E0E;fontStyle=1;" target="fix-box" value="NO — Fix">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-back" edge="1" parent="1" source="fix-box" style="endArrow=classic;html=1;dashed=1;fontColor=#d79b00;" target="b1" value="Cập nhật →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="480" />
+              <mxPoint x="225" y="342" />
+              <mxPoint x="390" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3-yes" edge="1" parent="1" source="b2-gate" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#006600;fontStyle=1;" target="b3-prep" value="YES →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="590" />
+              <mxPoint x="250" y="590" />
+              <mxPoint x="250" y="697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3-score" edge="1" parent="1" source="b2-gate" style="endArrow=classic;html=1;strokeWidth=1.5;fontColor=#006600;" target="b3-score" value="YES →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="590" />
+              <mxPoint x="630" y="590" />
+              <mxPoint x="630" y="697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3-dash" edge="1" parent="1" source="b2-gate" style="endArrow=classic;html=1;strokeWidth=1.5;fontColor=#006600;" target="b3-dash" value="YES →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="845" y="590" />
+              <mxPoint x="1030" y="590" />
+              <mxPoint x="1030" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4-prep-disc" edge="1" parent="1" source="b3-prep" style="endArrow=classic;html=1;strokeWidth=1.5;" target="b4-discuss">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="855" />
+              <mxPoint x="390" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4-score-disc" edge="1" parent="1" source="b3-score" style="endArrow=classic;html=1;strokeWidth=1.5;" target="b4-discuss">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4-dash-disc" edge="1" parent="1" source="b3-dash" style="endArrow=classic;html=1;strokeWidth=1.5;" target="b4-discuss">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="855" />
+              <mxPoint x="910" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="b4-discuss" style="endArrow=classic;html=1;strokeWidth=2;" target="d-calib">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5-no" edge="1" parent="1" source="d-calib" style="endArrow=classic;html=1;dashed=1;fontColor=#A50E0E;fontStyle=1;" target="b3-score" value="NO → re-calibrate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="985" />
+              <mxPoint x="440" y="985" />
+              <mxPoint x="440" y="900" />
+              <mxPoint x="630" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5-yes" edge="1" parent="1" source="d-calib" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#006600;fontStyle=1;" target="b5" value="YES →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="985" />
+              <mxPoint x="700" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="b5" style="endArrow=classic;html=1;strokeWidth=2;" target="b6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="b6" style="endArrow=classic;html=1;strokeWidth=2;" target="d6-judge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7-no" edge="1" parent="1" source="d6-judge" style="endArrow=classic;html=1;dashed=1;fontColor=#A50E0E;fontStyle=1;" target="remind-box" value="NO →">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7-back" edge="1" parent="1" source="remind-box" style="endArrow=classic;html=1;dashed=1;fontColor=#d79b00;" target="b5" value="Judge nộp bài">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1175" y="1427" />
+              <mxPoint x="1175" y="1155" />
+              <mxPoint x="1010" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="d6-judge" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#006600;fontStyle=1;" target="b7" value="YES →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1475" />
+              <mxPoint x="700" y="1525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="b7" style="endArrow=classic;html=1;strokeWidth=2;" target="d7-var">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9-yes" edge="1" parent="1" source="d7-var" style="endArrow=classic;html=1;fontColor=#A50E0E;fontStyle=1;" target="b8-review" value="YES — Flag ⚠️">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9-no" edge="1" parent="1" source="d7-var" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#006600;fontStyle=1;" target="b9" value="NO — OK →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1765" />
+              <mxPoint x="700" y="1825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="b8-review" style="endArrow=classic;html=1;strokeWidth=1.5;" target="d8-ok">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10-ok" edge="1" parent="1" source="d8-ok" style="endArrow=classic;html=1;fontColor=#006600;fontStyle=1;" target="b9" value="Hợp lệ →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="1900" />
+              <mxPoint x="1185" y="1940" />
+              <mxPoint x="840" y="1940" />
+              <mxPoint x="840" y="1875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10-rescore" edge="1" parent="1" source="d8-ok" style="endArrow=classic;html=1;dashed=1;fontColor=#A50E0E;fontStyle=1;" target="b5" value="Chấm lại →">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="1860" />
+              <mxPoint x="1290" y="1860" />
+              <mxPoint x="1290" y="1155" />
+              <mxPoint x="1010" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="b9" style="endArrow=classic;html=1;strokeWidth=2;" target="d9-topn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12-yes" edge="1" parent="1" source="d9-topn" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#006600;fontStyle=1;" target="b10-adv" value="YES — Top N →">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12-no" edge="1" parent="1" source="d9-topn" style="endArrow=classic;html=1;strokeWidth=2;fontColor=#A50E0E;fontStyle=1;" target="b10-elim" value="← NO — Out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13-adv" edge="1" parent="1" source="b10-adv" style="endArrow=classic;html=1;strokeWidth=1.5;" target="end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="2150" />
+              <mxPoint x="920" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13-elim" edge="1" parent="1" source="b10-elim" style="endArrow=classic;html=1;strokeWidth=1.5;" target="end">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="2150" />
+              <mxPoint x="480" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
